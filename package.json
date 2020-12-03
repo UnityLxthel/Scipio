@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot-template",
+  "name": "scipio",
   "version": "1.0.0",
   "description": "Boilerplate-code/template for discord bots",
   "main": "index.js",
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3chospirits/discord-bot-template.git"
+    "url": ""
   },
-  "author": "",
+  "author": "UnityLxthel and CallMeGray",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/3chospirits/discord-bot-template/issues"
@@ -46,5 +46,6 @@
     "mongoose": "^5.9.27",
     "pug": "^3.0.0",
     "rate-limit-mongo": "^2.3.0"
-  }
+  },
+  "devDependencies": {}
 }

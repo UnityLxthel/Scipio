@@ -13,17 +13,9 @@ async function runCommands(bot, message) {
 	if (!message.guild) return;
 	if (message.author.bot) return;
 	let { client, config} = bot;
-    if(message.content.startsWith('>')) {
-        return;
-    } else {
-        if (message.channel.id === "783070457170624513") {
-            message.react("👍");
-            message.react("👎");
-        }
-    }
     let prefix = db.get(`prefix_${message.guild.id}`)
 	if(!prefix || prefix == null) {
-       prefix = "!"
+       prefix = "s!"
 	}
 	if (!message.content.startsWith(prefix)) return;
 	const args = message.content.slice(prefix.length).trim().split(/ +/g);

@@ -104,5 +104,4 @@ dist
 .tern-port
 
 # Other
-.config.js
-./templates/
+*.config.js

@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client({ disableMentions: "everyone" }); //remove the parameters being passed into 
 
 const config = require("./config.js");
-const { prefix, token } = require("/home/container/config.js");
+const { prefix, token } = require("./config.js");
 const fs = require("fs");
 
 let bot = {client, config, prefix};
